@@ -8,7 +8,7 @@ class Config(object):
     API_ID    = os.environ.get("API_ID", "29626867")  # ⚠️ Required
     API_HASH  = os.environ.get("API_HASH", "82b19751497d00e47c3032409d130423") # ⚠️ Required
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6906281434:AAFu3P7NslUS4Nh0aRN45Wf5Q59ONGYAqeI") # ⚠️ Required
-    FORCE_SUB = os.environ.get('FORCE_SUB', '-1002072979014') # ⚠️ Required
+    FORCE_SUB = os.environ.get('FORCE_SUB', '-1002017114540') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
    
@@ -18,7 +18,7 @@ class Config(object):
 
     # Other Configs 
     ADMIN = int(os.environ.get("ADMIN", "6650589235 5487643307")) # ⚠️ Required
-    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002138960289')) # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002176208139')) # ⚠️ Required
     BOT_UPTIME = BOT_UPTIME  = time.time()
     START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/bd21f0b96f8af58016488.jpg")
 
